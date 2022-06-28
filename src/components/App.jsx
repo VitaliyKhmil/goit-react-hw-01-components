@@ -14,7 +14,7 @@ export const App = () => {
   return (
     <MainContainer>
       <Button>
-        <a href="https://saveukraine.exmo.com/" target={'_blank'}>
+        <a href="https://saveukraine.exmo.com/">
           Save Ukraine!!!
         </a>
       </Button>
