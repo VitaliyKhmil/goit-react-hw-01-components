@@ -18,13 +18,13 @@ export const FriendListItem = styled.li`
     padding: ${props => props.theme.space[4]}px;    
 `;
 
-export const OnLineStatus = styled.span`
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-bottom: ${props => props.theme.space[3]}px;
-    background-color: ${props =>
-      props.status ? props.theme.colors.Online : props.theme.colors.Offline};
+export const OnlineStatus = styled.span`
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: ${props => props.theme.space[3]}px;
+  background-color: ${props =>
+    props.isOnline ? props.theme.colors.Online : props.theme.colors.Offline};
 `;
 export const Avatar = styled.img`
   display: block;

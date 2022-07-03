@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-const StyledButton = styled.button`
+export const Button = styled.button`
   background-image: url(https://i.gifer.com/8daO.gif);  
   background-repeat: no-repeat;
   padding: ${p => p.theme.space[2]}px;
@@ -13,11 +13,3 @@ const StyledButton = styled.button`
   font-size: 35px;
   font-weight: 700;
 `;
-
-export const Button = ({onClick, type = 'buttom', children }) => {
-  return (
-    <StyledButton onClick={onClick}  type={type}>
-      {children}
-    </StyledButton>
-  );
-};
